@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionSignature", "ExceptionSignature\ExceptionSignature.csproj", "{49798F42-9535-4504-B1F9-4DB28D1D6D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionSignature.Tests", "ExceptionSignature.Tests\ExceptionSignature.Tests.csproj", "{12847EEC-BDA9-4356-A6EB-6C68D39307BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49798F42-9535-4504-B1F9-4DB28D1D6D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49798F42-9535-4504-B1F9-4DB28D1D6D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49798F42-9535-4504-B1F9-4DB28D1D6D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49798F42-9535-4504-B1F9-4DB28D1D6D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12847EEC-BDA9-4356-A6EB-6C68D39307BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12847EEC-BDA9-4356-A6EB-6C68D39307BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12847EEC-BDA9-4356-A6EB-6C68D39307BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12847EEC-BDA9-4356-A6EB-6C68D39307BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ExceptionSignature.vsmdi
+	EndGlobalSection
+EndGlobal
